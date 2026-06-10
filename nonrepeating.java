@@ -17,18 +17,21 @@ num[j+1]=num[j];
 num[j]=temp;
 }
               }
-       }
+}
+       int k=0;
+for(int i=0;i<num.length;i++){
        int count=0;
-for(int i=0;i<num.length-1;i++){
-if(num[i]==num[i+1]){
+    for(int j=0;j<num.length;j++){
+if(num[i]==num[j]){
 count++;
+k=num[i];
 }
-}
-       for(int i=0;i<num.length;i++){
-if(count==1){
-System.out.println("The non-repeating number is : "+num[i]);
+    }
+    if(count==1){
+       System.out.println("The non-rrepeating number is : "+k);
 }
        }
 
-}
+       }
+
 }
