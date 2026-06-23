@@ -17,12 +17,17 @@ for(int i=0;i<n;i++){
         break;
     }
 }
+if(j==-1){
+    return;
+}
 for(int i=j+1;i<n;i++){
     if(num[i]!=0){
         int temp=num[i];
         num[i]=num[j];
         num[j]=temp;
+        while(j<n&&num[j]!=0){
         j++;
+        }
     }
 }
 for(int i=0;i<=num.length-1;i++){
