@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "productofdigits",
+            "request": "launch",
+            "mainClass": "productofdigits",
+            "projectName": "DSA_8a49ee05"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"

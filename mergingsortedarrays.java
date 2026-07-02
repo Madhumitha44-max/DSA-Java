@@ -16,6 +16,7 @@ System.out.println("Enter the size of the 2nd array");
        for(int j=0;j<num2.length;j++){
         num2[j]=sc.nextInt();
        }
+       sc.close();
        int i=n1-1;
        int j=n2-1;
        int k=n1+n2-1;
