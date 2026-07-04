@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subsets",
+            "request": "launch",
+            "mainClass": "subsets",
+            "projectName": "DSA_8a49ee05"
+        },
+        {
+            "type": "java",
             "name": "nextGreatest",
             "request": "launch",
             "mainClass": "nextGreatest",
