@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "combinationsum",
+            "request": "launch",
+            "mainClass": "combinationsum",
+            "projectName": "DSA_8a49ee05"
+        },
+        {
+            "type": "java",
             "name": "subsets",
             "request": "launch",
             "mainClass": "subsets",
