@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
 public class Permutations {
     
     public static List<List<Integer>> permute (int[] num) {
@@ -10,11 +11,14 @@ public class Permutations {
        return set;
     }
     public static void backtracking(int[] num, boolean[] used, List<List<Integer>>set, List<Integer>list) {
+
         if(list.size() == num.length) {
+
             set.add(new ArrayList<>(list));
             return;
         }
         for(int i = 0 ; i < num.length ; i++) {
+
         if(used[i])
          continue;
 
@@ -31,6 +35,7 @@ public class Permutations {
         }
     }
     public static void main(String[] args) {
+        
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] num = new int[n];
