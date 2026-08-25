@@ -33,6 +33,12 @@ public class ThreeSum {
                     temp.add(Arrays.asList(num[i],num[j],num[k]));
                     k--;
                     j++;
+                    while(j<k&&num[j]==num[j-1]) {
+                        j++;
+                    }
+                    while(j<k&&num[k]==num[k+1]) {
+                        k--;
+                    }
 
                 }
             }  
